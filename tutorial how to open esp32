@@ -1,0 +1,16 @@
+                                    tutorial how to open esp32
+1- install "Arduino IDE" 
+You can download it from there website 
+Also, you can download it by" Microsoft store ".
+2-open the Arduino program
+3- Add the esp32 library 
+click ctrl +comma(file>perferences) >add this link (http://dl.espressif.com/dl/package_esp32_index.json) in to "additional board manager URLs">then click ok
+4-open the board manager
+ tools menu > "Arduino UNO board '> " board manager"
+5- Search for ESP32 and press install button for the “ESP32 by Espressif Systems“
+6-Testing the Installation
+ Tools meu > "Arduino UNO board ' >  "esp ardunio ' > choose the kind of esp you have (wemos D1 MINI esp32)
+>Connect the esp32  piece with a "USB wire" to coonect it to the laptop >SELECT Tools menu >port:"COM3" > COM3 
+7-Try and test esp working
+ Click on file menu >EXAMPLE> CHOOSE ONE OF THE EAMPLE > Press the “Upload” button in the Arduino IDE to upload your sketch>After you see the  “Connecting….” message in your Arduino IDE, release the finger from the “BOOT” button
+
